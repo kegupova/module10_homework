@@ -1,0 +1,10 @@
+const n = prompt('Введите N')
+var nn=n;
+nn++;
+if ((n % 2 === 0) && (typeof nn == 'number')) {
+  alert('Число ' + n + ' четное!')
+} else if ((n % 2 != 0) && (typeof nn == 'number')) {
+  alert('Число ' + n + ' нечетное!')
+} else {
+  alert('упс, кажется, вы ошиблись:/')
+}
