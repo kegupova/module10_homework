@@ -1,0 +1,13 @@
+const n = prompt('Введите N')
+
+
+
+if (typeof n === 'number') {
+  alert('N - Число')
+} else if (typeof n === 'string') {
+  alert('N - строка')
+} else if (typeof n === 'boolean') {
+  alert('N - логический тип')
+} else {
+alert('ТИп данных не определен')
+}
